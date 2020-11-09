@@ -1,0 +1,19 @@
+{
+"manifest_version": 2,
+"name": "AnodeExercução",
+"version": "1.0",
+"content_scripts": [
+{
+    "matches": [
+        "file:///C:/Users/Miller/Documents/Plugins_Esporte/*"
+    ],
+    "css": [
+        "style.css"
+    ],
+    "js": [
+        "content.js"
+    ]
+}
+
+]
+}
